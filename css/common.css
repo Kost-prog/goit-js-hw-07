@@ -64,4 +64,62 @@ body {
   height: 100%;
   background: #fff;
   }
-  
+.login-form {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 24px;
+    width: 408px;
+    height: 256px;
+    background: #fff;
+}
+.field {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+input[type="email"] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 5px;
+}
+input[type="password"] {
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  padding: 5px;
+}
+
+button {
+font-size: 16px;
+margin-top: 16px;
+color: #fff;
+border: none;
+cursor: pointer;
+border-radius: 8px;
+padding: 8px 16px;
+width: 86px;
+height: 40px;
+background: #4e75ff;}
+
+.widget {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+  padding: 100px 88px;
+  width: 345px;
+  height: 280px;
+  background: #fff;
+}
+
+.change-color {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 148px;
+    height: 40px;
+    background: #4e75ff;
+}
